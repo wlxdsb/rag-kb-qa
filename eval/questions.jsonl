@@ -1,0 +1,5 @@
+{"question": "GPU 显存不足时应该怎么处理？", "expect": "nvidia-smi"}
+{"question": "磁盘写满、提示 No space left on device，怎么排查？", "expect": "df -h"}
+{"question": "推理服务时延升高、TTFT 劣化，如何优化？", "expect": "批"}
+{"question": "向量检索召回不准，可以从哪些方面优化？", "expect": "切分"}
+{"question": "日志文件怎么做轮转和清理？", "expect": "logrotate"}

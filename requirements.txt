@@ -1,0 +1,14 @@
+# RAG 本地知识库问答 —— 运行依赖
+# 使用 Python 3.13 安装（勿用 3.14，部分包暂无 wheel）
+
+langchain
+langchain-community
+langchain-core
+langchain-text-splitters
+langchain-chroma
+langchain-deepseek
+chromadb
+fastembed          # 本地 embedding（ONNX，免装 torch）
+streamlit          # 网页界面
+pypdf              # 读取 PDF
+python-dotenv      # 读取 .env
